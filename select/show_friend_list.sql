@@ -5,7 +5,7 @@ SELECT receiver.first_name,
     receiver.last_name,
     receiver.nickname,
     receiver.profile_pic, 
-    friendship_birthday
+    send_invite.friendship_birthday
 FROM 
     send_invite
 INNER JOIN account AS receiver
@@ -18,7 +18,7 @@ UNION -- and the accepted requests to 1
         sender.last_name,
         sender.nickname,
         sender.profile_pic, 
-        friendship_birthday
+        send_invite.friendship_birthday
     FROM 
         send_invite
     INNER JOIN account AS sender
