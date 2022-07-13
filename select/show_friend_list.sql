@@ -12,7 +12,7 @@ INNER JOIN account AS receiver
     ON receiver.id_account = send_invite.id_account_receiver 
 WHERE 
     send_invite.id_account_sender = 1
-    AND is_accepted = true
+    AND send_invite.is_accepted = true
 UNION -- and the accepted requests to 1
     SELECT sender.first_name,
         sender.last_name,
@@ -23,6 +23,5 @@ UNION -- and the accepted requests to 1
         send_invite
     INNER JOIN account AS sender
         ON sender.id_account = send_invite.id_account_sender 
-    WHERE 
-        send_invite.id_account_receiver = 1
-        AND is_accepted = true;
+    WHERE send_invite.id_account_receiver = 1
+        AND send_invite.is_accepted = true;
