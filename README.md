@@ -3,7 +3,7 @@ A basic social media database and its queries, implemented using the PostgreSQL 
 
 # How to use ? 
 1. Make sure you have PostgreSQL version 10 or higher installed on your OS (version 14 was used at the time of writing);
-2. To create the database and its tables : run the `social_media.sql` in your PostgreSQL terminal; 
+2. To create the database and its tables : create a database, and run the `social_media.sql` in your PostgreSQL terminal; 
 3. On PSQL, simply run : `\i absolute/path/to/file`
 4. Run the `initializeMock.sql` file to insert some mock accounts, aftewards, you can run the other mocks in the mocks folder in order : 
 - `1_mockInvites.sql`, 
