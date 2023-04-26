@@ -19,7 +19,7 @@ Here is the database model, made with Jet Brain's Datagrip (which you will get v
 ![alt text](https://github.com/tokyramarozaka/social-media/blob/main/assets/Diagram.png)
 
 # Practice assignements - English version (French version is further down)
-1.  On which column would you add indexes and why ? 
+1.  On which column.s would you add indexes and why ? 
 2. We want to simulate a real social network with this database, to do this write the following queries: 
 - For a certain account with ID 1, display all unaccepted invitations it has sent.
 
@@ -37,7 +37,7 @@ Here is the database model, made with Jet Brain's Datagrip (which you will get v
 - Same question but this time order them according to the number of positive reactions they had. The post with the most positive reactions should come first. We distinguish as positive reactions "like", "love", "haha", and as negative reactions: "grrr" and "who cares? 
 
 # Pratice assignements - French version
-1. Sur quelle colonne metteriez vous un index et pourquoi ? 
+1. Sur quelle colonne.s metteriez vous un index et pourquoi ? 
 2. Nous voulons simuler un vrai réseau social avec cette base de données, pour cela écrire les requêtes suivantes : 
 - Pour un certain compte avec l'identifiant 1, affichez toutes les invitations non acceptées qu'il a envoyé.
 
